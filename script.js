@@ -1,4 +1,4 @@
-import { Pokemon, pokemons } from "./test.mjs";
+import { Pokemon, pokemons } from "./data-pokemon.mjs";
 
 function damage(heroType, oponentType, attackPower, oponentDeffense) {
   if (!pokemons.includes(heroType) || !pokemons.includes(oponentType))
