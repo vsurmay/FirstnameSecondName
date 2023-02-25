@@ -28,5 +28,3 @@ class Pokemon {
 }
 
 export { Pokemon, pokemons };
-
-console.log("i changing in feature branch");
