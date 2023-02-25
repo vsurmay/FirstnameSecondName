@@ -24,5 +24,3 @@ function damage(heroType, oponentType, attackPower, oponentDeffense) {
 
   return 50 * (attackPower / oponentDeffense) * effectiveness;
 }
-
-console.log(damage("grass", "electric", 100, 20));
